@@ -1,0 +1,215 @@
+.parent {
+    display: grid;
+    grid-template-rows: 1;
+    grid-template-columns: 4;
+    margin: 20px;
+    grid-template-areas:
+        "computer printer "
+
+    ;
+}
+
+.computer {
+    border: 1px solid black;
+    width: 250px;
+    height: 350px;
+    border-radius: 15px;
+    display: grid;
+    grid-area: computer;
+
+
+}
+
+.img1 {
+    position: relative;
+    left: 50px;
+}
+
+.larg {
+    font-weight: bolder;
+    font-size: large;
+    position: relative;
+    top: 20px;
+    left: 10px;
+
+}
+
+.text {
+    text-align: center;
+}
+
+.buy1 {
+    border: 1px solid green;
+    background-color: green;
+    border-radius: 20px;
+    width: 150px;
+    height: auto;
+    text-align: center;
+    position: relative;
+    left: 50px;
+    bottom: 10px;
+    color: white;
+
+}
+
+.printer {
+    border: 1px solid black;
+    width: 250px;
+    height: 350px;
+    border-radius: 15px;
+    display: grid;
+    grid-area: printer;
+    position: relative;
+    right: 450px;
+    margin-left: 300px;
+}
+
+.img2 {
+    position: relative;
+    left: 55px;
+}
+
+.larg2 {
+    font-size: larger;
+    font-weight: bold;
+    position: relative;
+    left: 10px;
+}
+
+.text2 {
+    position: relative;
+    bottom: 40px;
+    left: 10px;
+}
+
+.ul {
+    position: relative;
+    bottom: 40px;
+}
+
+.buy2 {
+    border: 1px solid green;
+    background-color: green;
+    border-radius: 20px;
+    width: 150px;
+    height: 20px;
+    text-align: center;
+    position: relative;
+    left: 50px;
+    bottom: 2px;
+    color: white;
+}
+
+.printer2 {
+    border: 1px solid black;
+    width: 250px;
+    height: 350px;
+    border-radius: 15px;
+    display: grid;
+    grid-area: printer;
+    position: relative;
+    right: 150px;
+    margin-left: 400px;
+}
+
+.img3 {
+    position: relative;
+    left: 70px;
+}
+
+.larg3 {
+    font-weight: bold;
+    font-size: large;
+    position: relative;
+    bottom: 15px;
+}
+
+.text3 {
+    position: relative;
+    bottom: 40px;
+    left: 10px;
+}
+
+.buy3 {
+    border: 1px solid green;
+    background-color: green;
+    border-radius: 20px;
+    width: 150px;
+    height: 20px;
+    text-align: center;
+    position: relative;
+    left: 50px;
+    top: 30px;
+    color: white;
+}
+.mouse{
+    border: 1px solid black;
+    width: 250px;
+    height: 350px;
+    border-radius: 15px;
+    display: grid;
+    grid-area: printer;
+    position: relative;
+    left: 150px;
+    margin-left: 500px;
+}
+.larg4{
+    font-size: large;
+    font-weight: bold;
+    position: relative;
+    top: 10px; left: 10px;
+}
+.text4{
+    font-size:small;
+    position: relative;
+    left: 5px; bottom: 70px;
+}
+.buy4{
+    border: 1px solid green;
+    background-color: green;
+    border-radius: 20px;
+    width: 150px;
+    height: 20px;
+    text-align: center;
+    position: relative;
+    left: 50px;
+    top: 40px;
+    color: white;
+}
+.computer2{
+    border: 1px solid black;
+    width: 250px;
+    height: 350px;
+    border-radius: 15px;
+    display: grid;
+    /* grid-area: computer; */
+
+}
+.img5{
+    position: relative;
+    left: 50px;
+}
+.larg5{
+    font-weight: bolder;
+    font-size: large;
+    position: relative;
+    top: 5px;
+    left: 10px;
+}
+.text5{
+    font-size:small;
+    position: relative;
+    left: 5px; bottom: 30px;
+}
+.buy5{
+    border: 1px solid green;
+    background-color: green;
+    border-radius: 20px;
+    width: 150px;
+    height: 20px;
+    text-align: center;
+    position: relative;
+    left: 50px;
+    top: 30px;
+    color: white;
+}

@@ -1,0 +1,50 @@
+.main {
+
+    display: grid;
+    grid-template-rows: repeat(2, 250px);
+    grid-template-columns: repeat(2, 320px);
+    width: 600px;
+    height: 800px;
+    grid-template-areas:
+        "img1  img2"
+    
+        "img3  img4";
+}
+
+.img1 {
+
+    display: grid;
+    grid-area: img1;
+    width: 300px;
+    height: 250px;
+    gap: 10px;
+    grid-row: 3;
+    grid-column: 1;
+
+
+
+}
+
+.img2 {
+
+    display: grid;
+    grid-area: img2;
+    width: 200px;
+    height: 250px;
+   gap: 20px;
+    grid-row: 3;
+    grid-column: 1;
+
+
+}
+
+.img3 {
+    display: grid;
+    grid-area: img3;
+}
+
+.img4 {
+    grid-area: img4;
+    display: grid;
+
+}

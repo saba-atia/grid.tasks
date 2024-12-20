@@ -1,0 +1,76 @@
+.main {
+    display: grid;
+    grid-template-rows: repeat(5, 110px);
+    grid-template-columns: repeat(5, 150px);
+    width: 500px;
+    height: 200px;
+    grid-template-areas: 
+    "sub1 sub1 sub2 sub2 sub2 "
+    "sub1 sub1  sub4 sub4 sub5 "
+    "sub3 sub3 sub4 sub4 sub6 ";
+
+
+}
+
+.sub1 {
+    background-color: blue;
+    display: grid;
+    grid-row: 1/4;
+    width: 300px;
+    height: 300px;
+    border-radius: 15px;
+    color: white;
+    grid-area: sub1;
+}
+
+.sub2 {
+    background-color: darkblue;
+    display: grid;
+    grid-row: 2/1;
+    width: 455px;
+    height: 100px;
+    border-radius: 15px;
+    color: white;
+    grid-area: sub2;
+}
+
+.sub3 {
+    background-color: purple;
+    display: grid;
+    grid-column: 3/1;
+   width: 300px;
+    height: 100px;
+    border-radius: 10px;
+    color: white;
+    grid-area: sub3;
+}
+
+.sub4 {
+    background-color: greenyellow;
+    display: grid;
+    grid-row: 3/2;
+    height: 220px;
+    width: 400px;
+    border-radius: 10px;
+ color: white;
+ grid-area: sub4;
+}
+
+.sub5 {
+    background-color: aqua;
+    width: 150px;
+    height: 120px;
+    grid-column:2/6;
+    color: white;
+    border-radius: 10px;
+    grid-area: sub5;
+}
+
+.sub6 {
+    background-color: salmon;
+    width: 150px;
+    height: 120px;
+    border-radius: 10px;
+grid-column:3/5;
+grid-area: sub6;
+}

@@ -1,0 +1,12 @@
+.main{
+    background-color: white;
+    height: auto;
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(4 ,100px);
+}
+.son{
+    background-color: blue;
+    grid-area: auto;
+    height: 100px;
+}

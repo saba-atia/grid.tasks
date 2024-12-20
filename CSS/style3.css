@@ -1,0 +1,52 @@
+body{
+    background-color: white;
+    display: grid;
+    grid-template-columns:(3, 50px);
+    grid-template-rows:(4,50px);
+    gap: 5px; height: 100px; width: 200px;
+    grid-template-areas: 
+    "head head head"
+    "side nav nav  "
+    " side art art  "
+     " side art art  "
+     "foot foot foot"
+    
+    ;
+
+}
+.head{
+    background-color: rgb(230, 230, 34);
+    width: 700px; height: 50px;border-radius: 10px;
+    text-align: center; color: white; font-size: larger;display: grid;
+    grid-area: head;
+}
+.sidebar{
+    background-color: crimson;
+    height: 355px;
+    width: 100px;
+    border-radius: 10px;
+    text-align: center; color: white; font-size: larger;display: grid;
+    grid-area: side; 
+
+}
+.nav{
+    background-color: aqua;
+    height: 50px; width: 600px;
+    display: grid; 
+    grid-area: nav;    border-radius: 10px; color: white; text-align: center; font-size: larger;
+
+    
+}
+.Artical{
+    background-color: grey;
+    height: 300px;width: 600px;
+    display: grid; grid-area: art;    border-radius: 10px; text-align: center;color: white;
+
+}
+.footer{
+    background-color: navy; 
+    width: 700px; height: 50px; display: grid; grid-area: foot; border-radius: 10px;
+color: white; text-align: center; font-size: larger;
+}
+
+

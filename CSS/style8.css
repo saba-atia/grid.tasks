@@ -1,0 +1,9 @@
+.main{
+    width: 500px; 
+    height: 400px;
+    display: grid;
+    grid-template-columns:repeat(3 ,150px);
+    grid-template-rows: repeat(3 ,110px);
+    justify-content:space-evenly;
+    gap: 5px;
+} 

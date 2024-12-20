@@ -1,0 +1,26 @@
+.main{
+    background-image: linear-gradient(pink,purple);
+    display: grid; 
+    grid-template-rows:repeat(5,100px) ;
+    grid-template-columns: repeat(8,100px);
+width: auto; height: auto; 
+justify-content: space-evenly;
+
+}
+
+
+.number{
+    background-color: orange;
+    width: 80px;
+    height: 50px;
+    text-align: center;
+    justify-content: center;
+    justify-items: center;
+}
+
+.number-3{
+    grid-column: span 8;
+    grid-row: 4/5;
+    width: auto;
+}
+
